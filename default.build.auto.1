@@ -1,0 +1,44 @@
+################################################################################
+#                    DO NOT MANUALLY EDIT THIS FILE!                           #
+################################################################################
+# This file contains the automatically generated build configuration (2022/07/28 20:08:39)
+# requested at line 3 in /home/liubin/project/rkv_labs/v2_labs/v2x_projects/spr22/AHB-GPIO/.dvt/default.build
+
+
+################ Verilog Auto-config Directives ################
++dvt_init
+
+
+-uvm
+
++incdir+uvm/reg
++incdir+uvm/cfg
++incdir+uvm/cov
++incdir+uvm/env
++incdir+uvm/seq_lib/elem_seqs
++incdir+uvm/seq_lib
++incdir+uvm/test
++incdir+uvm/vip_lib/lvc_ahb
++incdir+uvm/vip_lib/lvc_ahb/sequence_lib
+
+### AUTOCONFIG ERROR: Unresolved includes
+# The following includes could not be resolved:
+#`include "std_ovl_defines.h" in cmsdk_iop_gpio.v (/home/liubin/project/rkv_labs/v2_labs/v2x_projects/spr22/AHB-GPIO/verilog/cmsdk_iop_gpio.v)
+
+
+### AUTOCONFIG WARNING: Missing macro definitions
+# The following macros are used but not defined:
+# +define+OVL_ERROR
+# +define+OVL_ASSERT
+
+# Available `ifdef / `ifndef controls:
+# +define+ARM_AHB_ASSERT_ON
+
+uvm/tb/rkv_gpio_if.sv
+uvm/env/rkv_gpio_pkg.sv
+uvm/vip_lib/lvc_ahb/lvc_ahb_if.sv
+uvm/vip_lib/lvc_ahb/lvc_ahb_pkg.sv
+verilog/cmsdk_iop_gpio.v
+uvm/tb/rkv_gpio_tb.sv
+verilog/cmsdk_ahb_gpio.v
+verilog/cmsdk_ahb_to_iop.v

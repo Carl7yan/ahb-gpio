@@ -1,0 +1,30 @@
+################################################################################
+#                    DO NOT MANUALLY EDIT THIS FILE!                           #
+################################################################################
+# This file contains the automatically generated build configuration (2022/07/28 20:08:39)
+# requested at line 3 in /home/liubin/project/rkv_labs/v2_labs/v2x_projects/spr22/AHB-GPIO/.dvt/default.build
+
+
+################ Verilog Auto-config Directives ################
++dvt_init
+
+-uvm
+
++incdir+uvm/reg
++incdir+uvm/cfg
++incdir+uvm/cov
++incdir+uvm/env
++incdir+uvm/seq_lib/elem_seqs
++incdir+uvm/seq_lib
++incdir+uvm/test
++incdir+uvm/vip_lib/lvc_ahb
++incdir+uvm/vip_lib/lvc_ahb/sequence_lib
+
+verilog/cmsdk_iop_gpio.v
+verilog/cmsdk_ahb_to_iop.v
+verilog/cmsdk_ahb_gpio.v
+uvm/vip_lib/lvc_ahb/lvc_ahb_pkg.sv
+uvm/vip_lib/lvc_ahb/lvc_ahb_if.sv
+uvm/tb/rkv_gpio_if.sv
+uvm/env/rkv_gpio_pkg.sv
+uvm/tb/rkv_gpio_tb.sv
